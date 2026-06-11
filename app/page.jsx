@@ -222,8 +222,8 @@ export default function Home() {
                 <a
                   key={social.label}
                   href={social.href}
-                  target={social.href === "#" ? undefined : "_blank"}
-                  rel={social.href === "#" ? undefined : "noreferrer"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-between border-b border-taupe/25 py-6 text-[10px] font-bold uppercase tracking-editorial text-espresso transition duration-300 hover:px-3 hover:text-taupe"
                 >
                   {social.label}
@@ -269,8 +269,8 @@ export default function Home() {
                   key={social.label}
                   className="transition hover:text-taupe"
                   href={social.href}
-                  target={social.href === "#" ? undefined : "_blank"}
-                  rel={social.href === "#" ? undefined : "noreferrer"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {social.label}
                 </a>
@@ -278,6 +278,8 @@ export default function Home() {
               <a
                 className="transition hover:text-taupe"
                 href={links.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 WhatsApp
               </a>
