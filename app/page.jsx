@@ -10,6 +10,18 @@ const socialItems = [
   { label: "TikTok", href: links.tiktok },
 ];
 
+function WaitlistNote({ align = "left" }) {
+  return (
+    <p
+      className={`mt-3 text-xs font-light leading-6 text-cacao/75 ${
+        align === "center" ? "text-center" : "text-left"
+      }`}
+    >
+      Cupos limitados · Precio especial para fundadoras
+    </p>
+  );
+}
+
 export default function Home() {
   return (
     <main className="overflow-hidden">
@@ -43,9 +55,12 @@ export default function Home() {
                   buscan pausar, reconectar y sentirse inspiradas.
                 </p>
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-                  <Button href={links.waitlist} external>
-                    Unirme a la lista de espera
-                  </Button>
+                  <div>
+                    <Button href={links.waitlist} external>
+                      Unirme a la lista de espera
+                    </Button>
+                    <WaitlistNote />
+                  </div>
                   <Button href="#sobre" variant="secondary">
                     Descubrir Aurelle
                   </Button>
@@ -110,11 +125,43 @@ export default function Home() {
             </p>
           </Reveal>
           <Reveal>
-            <SectionHeading
-              eyebrow="Nuestra esencia"
-              title="Sobre Aurelle"
-              description="Aurelle nace de la intención de crear espacios femeninos, cuidados y con alma. Un lugar donde el bienestar no sea solo verse bien, sino sentirse en paz, conectar con una misma y rodearse de mujeres que inspiran."
-            />
+            <div className="flex max-w-3xl flex-col items-start text-left">
+              <p className="mb-6 text-[9px] font-bold uppercase tracking-[0.32em] text-taupe">
+                Nuestra esencia
+              </p>
+              <h2 className="text-balance font-serif text-4xl font-normal leading-[1.03] text-espresso sm:text-5xl lg:text-6xl">
+                Sobre Aurelle
+              </h2>
+              <div className="mt-8 max-w-2xl space-y-5 text-base font-light leading-8 text-cacao sm:text-lg">
+                <p>Aurelle nació de una historia personal.</p>
+                <p>
+                  De chica vi de cerca lo que pasa cuando una mujer no se ve a
+                  sí misma. Y sin entenderlo, me convertí en la persona a quien
+                  las mujeres acudían — para sentirse más seguras, más ellas
+                  mismas, más en paz.
+                </p>
+                <p>
+                  Con los años también lo viví yo. Relaciones donde no me
+                  respeté, momentos donde no me puse primero. Fue a través de
+                  la terapia, el yoga, el trabajo interno y la reconexión con
+                  Dios que entendí de dónde venía todo eso — y cómo sanarlo.
+                </p>
+                <p>
+                  Aurelle es el espacio que yo hubiera necesitado. Un lugar
+                  donde el bienestar no es solo verse bien, sino sentirse en
+                  paz, conocerse de verdad y rodearse de mujeres que inspiran.
+                </p>
+                <p>
+                  Si estás aquí, creo que algo en ti también está lista para
+                  volver a ti.
+                </p>
+                <div className="pt-3 font-serif text-xl italic leading-8 text-taupe">
+                  <p>Con amor,</p>
+                  <p>Rebeca</p>
+                  <p className="text-base text-cacao">Creadora de Aurelle</p>
+                </div>
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>
@@ -166,9 +213,12 @@ export default function Home() {
                 Cupos limitados
               </p>
             </div>
-            <Button href={links.waitlist} external>
-              Unirme a la lista de espera
-            </Button>
+            <div>
+              <Button href={links.waitlist} external>
+                Unirme a la lista de espera
+              </Button>
+              <WaitlistNote />
+            </div>
           </Reveal>
         </div>
       </section>
@@ -246,9 +296,12 @@ export default function Home() {
             Sé parte de la primera experiencia Aurelle.
           </h2>
           <div className="mx-auto my-10 h-px w-16 bg-taupe/40" />
-          <Button href={links.waitlist} external>
-            Unirme a la lista de espera
-          </Button>
+          <div className="inline-block">
+            <Button href={links.waitlist} external>
+              Unirme a la lista de espera
+            </Button>
+            <WaitlistNote align="center" />
+          </div>
         </Reveal>
       </section>
 
