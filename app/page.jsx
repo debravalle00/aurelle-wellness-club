@@ -17,7 +17,7 @@ function WaitlistNote({ align = "left" }) {
         align === "center" ? "text-center" : "text-left"
       }`}
     >
-      Cupos limitados · Precio especial para fundadoras
+      Precio especial para fundadoras
     </p>
   );
 }
@@ -158,7 +158,7 @@ export default function Home() {
                 <div className="pt-3 font-serif text-xl italic leading-8 text-taupe">
                   <p>Con amor,</p>
                   <p>Rebeca</p>
-                  <p className="text-base text-cacao">Creadora de Aurelle</p>
+                  <p className="text-base text-cacao">Creadora de Aurelle 🤍</p>
                 </div>
               </div>
             </div>
