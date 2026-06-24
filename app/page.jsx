@@ -210,7 +210,7 @@ export default function Home() {
               </p>
               <p className="mt-3 text-sm leading-7 text-cacao">
                 La ubicación exacta será compartida luego de la confirmación ·
-                Cupos limitados
+                Solo 15 lugares
               </p>
             </div>
             <div>
