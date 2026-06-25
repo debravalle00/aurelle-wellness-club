@@ -305,6 +305,24 @@ export default function Home() {
         </Reveal>
       </section>
 
+      <section className="border-y border-taupe/15 bg-linen px-5 py-20 sm:px-8 lg:px-12 lg:py-28">
+        <Reveal className="mx-auto max-w-[1120px]">
+          <div className="flex flex-col items-start justify-between gap-10 border-y border-taupe/20 py-12 sm:flex-row sm:items-center">
+            <div>
+              <p className="text-[9px] font-bold uppercase tracking-[0.32em] text-taupe">
+                Aurelle Rebirth
+              </p>
+              <h2 className="mt-5 max-w-2xl font-serif text-4xl font-normal leading-[1.05] text-espresso sm:text-5xl">
+                El programa de transformación de 4 semanas
+              </h2>
+            </div>
+            <Button href="/rebirth" variant="secondary">
+              Conocé el programa
+            </Button>
+          </div>
+        </Reveal>
+      </section>
+
       <footer className="bg-linen px-5 py-12 sm:px-8 lg:px-12">
         <div className="mx-auto flex max-w-[1280px] flex-col gap-8 border-t border-taupe/20 pt-10 sm:flex-row sm:items-end sm:justify-between">
           <div>
