@@ -571,11 +571,11 @@ export default function RebirthPage() {
             Herramientas que te quedás para siempre.
           </p>
           <div className="rebirth-precio-tag">
-            <span>$</span>2,500
+            <span>$</span>2,800
           </div>
           <div className="rebirth-precio-moneda">MXN · pago único</div>
           <a
-            href="https://buy.stripe.com/aFa5kC1RI7k93i8gK24Rq00"
+            href="https://buy.stripe.com/bJebJ0gMCfQFg4UctM4Rq02"
             className="rebirth-btn-pago"
           >
             Quiero entrar al programa
