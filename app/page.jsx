@@ -17,7 +17,7 @@ function WaitlistNote({ align = "left" }) {
         align === "center" ? "text-center" : "text-left"
       }`}
     >
-      Precio especial para fundadoras
+      Solo 15 lugares · $1,800 MXN
     </p>
   );
 }
@@ -57,7 +57,7 @@ export default function Home() {
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
                   <div>
                     <Button href={links.waitlist} external>
-                      Unirme a la lista de espera
+                      Reservar mi lugar
                     </Button>
                     <WaitlistNote />
                   </div>
@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="mt-8 flex items-center justify-between text-[8px] uppercase tracking-[0.28em] text-cacao/75">
                   <span>Ciudad de México</span>
                   <span className="h-px w-12 bg-taupe/30" />
-                  <span>Agosto 2026</span>
+                  <span>22 de Agosto, 2026</span>
                 </div>
               </div>
             </Reveal>
@@ -215,7 +215,7 @@ export default function Home() {
             </div>
             <div>
               <Button href={links.waitlist} external>
-                Unirme a la lista de espera
+                Reservar mi lugar
               </Button>
               <WaitlistNote />
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
           <div className="mx-auto my-10 h-px w-16 bg-taupe/40" />
           <div className="inline-block">
             <Button href={links.waitlist} external>
-              Unirme a la lista de espera
+              Reservar mi lugar
             </Button>
             <WaitlistNote align="center" />
           </div>
