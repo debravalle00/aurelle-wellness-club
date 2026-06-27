@@ -51,8 +51,8 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-9 max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
-                  Una experiencia íntima de bienestar creada para mujeres que
-                  buscan pausar, reconectar y sentirse inspiradas.
+                  Hay un momento en que dejás de reconocerte. No es dramático —
+                  es gradual. Aurelle es el espacio para volver a vos.
                 </p>
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
                   <div>
@@ -75,7 +75,7 @@ export default function Home() {
                   Una tarde para ti
                 </p>
                 <p className="mt-8 max-w-md font-serif text-3xl italic leading-[1.25] text-espresso sm:text-4xl">
-                  Un espacio para bajar el ritmo y volver a lo esencial.
+                  No es un evento más. Las que estén ahí van a saberlo.
                 </p>
                 <div className="mt-12 border-t border-taupe/20">
                   {["Movimiento consciente", "Conexión femenina", "Conexiones con intención"].map(
@@ -182,8 +182,8 @@ export default function Home() {
                 </h2>
               </div>
               <p className="max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
-                Una tarde íntima de pilates mat suave, brunch cuidado,
-                conversaciones inspiradoras y conexión femenina.
+                15 mujeres. Una tarde para parar, respirar y volver a ellas
+                mismas. Con intención en cada detalle.
               </p>
             </div>
           </Reveal>
@@ -206,7 +206,7 @@ export default function Home() {
           <Reveal className="mt-12 flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-end">
             <div className="max-w-2xl">
               <p className="font-serif text-2xl text-espresso">
-                Un encuentro íntimo, pensado con intención.
+                Las que estuvieron ahí van a saberlo. Y vos también.
               </p>
               <p className="mt-3 text-sm leading-7 text-cacao">
                 La ubicación exacta será compartida luego de la confirmación ·
@@ -229,7 +229,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Todo está en los detalles"
               title="Qué incluye la experiencia"
-              description="Una tarde diseñada para nutrir el cuerpo, abrir conversaciones y crear conexiones que se sienten reales."
+              description="Cada detalle fue elegido con intención. Porque cuando una mujer se siente vista, algo cambia."
               align="center"
             />
           </Reveal>
@@ -293,7 +293,7 @@ export default function Home() {
             Tu lugar te espera
           </p>
           <h2 className="mt-8 text-balance font-serif text-5xl font-normal leading-[0.98] text-espresso sm:text-7xl lg:text-8xl">
-            Sé parte de la primera experiencia Aurelle.
+            Solo 15 lugares. Las que estén ahí van a saberlo.
           </h2>
           <div className="mx-auto my-10 h-px w-16 bg-taupe/40" />
           <div className="inline-block">
@@ -313,7 +313,8 @@ export default function Home() {
                 Aurelle Rebirth
               </p>
               <h2 className="mt-5 max-w-2xl font-serif text-4xl font-normal leading-[1.05] text-espresso sm:text-5xl">
-                El programa de transformación de 4 semanas
+                Cuatro semanas para regular tu sistema nervioso, reconectar con
+                tu cuerpo y expandirte desde adentro.
               </h2>
             </div>
             <Button href="/rebirth" variant="secondary">
