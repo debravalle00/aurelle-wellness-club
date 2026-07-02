@@ -84,7 +84,7 @@ export default function Home() {
                         key={item}
                         className="flex items-center gap-5 border-b border-taupe/20 py-5"
                       >
-                        <span className="text-[8px] font-bold tracking-[0.2em] text-taupe">
+                        <span className="text-[8px] font-bold tracking-[0.2em] text-gold">
                           0{index + 1}
                         </span>
                         <span className="font-serif text-lg text-espresso">
@@ -132,7 +132,7 @@ export default function Home() {
               <h2 className="text-balance font-serif text-4xl font-normal leading-[1.03] text-espresso sm:text-5xl lg:text-6xl">
                 Sobre Aurelle
               </h2>
-              <div className="mt-8 max-w-2xl space-y-5 text-base font-light leading-8 text-cacao sm:text-lg">
+              <div className="mt-8 max-w-2xl space-y-5 text-base font-light leading-8 text-espresso sm:text-lg">
                 <p>Aurelle nació de una historia personal.</p>
                 <p>
                   De chica vi de cerca lo que pasa cuando una mujer no se ve a
@@ -155,10 +155,10 @@ export default function Home() {
                   Si estás aquí, creo que algo en ti también está lista para
                   volver a ti.
                 </p>
-                <div className="pt-3 font-serif text-xl italic leading-8 text-taupe">
+                <div className="pt-3 font-serif text-xl italic leading-8 text-espresso">
                   <p>Con amor,</p>
                   <p>Rebeca</p>
-                  <p className="text-base text-cacao">Creadora de Aurelle 🤍</p>
+                  <p className="text-base text-espresso">Creadora de Aurelle 🤍</p>
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@ export default function Home() {
             {inclusions.map((item, index) => (
               <Reveal key={item.title} delay={index * 80}>
                 <article className="h-full min-h-64 border-b border-r border-taupe/20 bg-ivory p-7 transition duration-300 hover:bg-linen/60">
-                  <p className="text-[9px] font-bold tracking-[0.24em] text-taupe">
+                  <p className="text-[9px] font-bold tracking-[0.24em] text-gold">
                     0{index + 1}
                   </p>
                   <p className="mt-12 font-serif text-2xl leading-tight text-espresso">
@@ -324,13 +324,13 @@ export default function Home() {
         </Reveal>
       </section>
 
-      <footer className="bg-linen px-5 py-12 sm:px-8 lg:px-12">
+      <footer className="bg-linen px-5 py-12 text-footer sm:px-8 lg:px-12">
         <div className="mx-auto flex max-w-[1280px] flex-col gap-8 border-t border-taupe/20 pt-10 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="font-serif text-2xl tracking-[0.12em] text-espresso">
+            <p className="font-serif text-2xl tracking-[0.12em] text-footer">
               AURELLE
             </p>
-            <p className="mt-2 text-[9px] uppercase tracking-editorial text-cacao">
+            <p className="mt-2 text-[9px] uppercase tracking-editorial text-footer">
               Wellness Club
             </p>
           </div>
@@ -339,7 +339,7 @@ export default function Home() {
               {socialItems.slice(1).map((social) => (
                 <a
                   key={social.label}
-                  className="transition hover:text-taupe"
+                  className="transition hover:text-espresso"
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -348,7 +348,7 @@ export default function Home() {
                 </a>
               ))}
               <a
-                className="transition hover:text-taupe"
+                className="transition hover:text-espresso"
                 href={links.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -356,7 +356,7 @@ export default function Home() {
                 WhatsApp
               </a>
             </div>
-            <p className="mt-5 text-xs text-cacao/70">
+            <p className="mt-5 text-xs text-footer/80">
               © 2026 Aurelle Wellness Club. Todos los derechos reservados.
             </p>
           </div>
