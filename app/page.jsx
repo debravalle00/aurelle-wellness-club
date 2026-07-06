@@ -144,13 +144,13 @@ export default function Home() {
                 <p>
                   Con los años también lo viví yo. Relaciones donde no me
                   respeté, momentos donde no me puse primero. Fue a través de
-                  la terapia, el yoga, el trabajo interno y la reconexión con
-                  Dios que entendí de dónde venía todo eso y cómo sanarlo.
+                  la terapia, el trabajo interno y la reconexión conmigo misma
+                  que entendí de dónde venía todo eso.
                 </p>
                 <p>
                   Aurelle es el espacio que yo hubiera necesitado. Un lugar
                   donde el bienestar no es solo verse bien, sino sentirse en
-                  paz, conocerse de verdad y rodearse de mujeres que inspiran.
+                  paz, conocerse de verdad y rodearse de mujeres reales.
                 </p>
                 <p>
                   Si estás aquí, creo que algo en ti también está lista para
@@ -329,8 +329,7 @@ export default function Home() {
                 Aurelle Rebirth
               </p>
               <h2 className="mt-5 max-w-2xl font-serif text-4xl font-normal leading-[1.05] text-espresso sm:text-5xl">
-                Cuatro semanas para regular tu sistema nervioso, reconectar con
-                tu cuerpo y expandirte desde adentro.
+                Cuatro semanas para regular tu sistema nervioso y volver a vos.
               </h2>
             </div>
             <Button href="/rebirth" variant="secondary">
