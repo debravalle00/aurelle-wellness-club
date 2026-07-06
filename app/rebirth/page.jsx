@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Aurelle Rebirth — El Programa",
+  title: "Aurelle Rebirth, El Programa",
   description:
-    "El programa para la mujer que está lista para su siguiente versión.",
+    "Para la mujer que hace todo bien y por dentro algo no cierra.",
 };
 
 export default function RebirthPage() {
@@ -410,7 +410,7 @@ export default function RebirthPage() {
           Aurelle<em>Rebirth</em>
         </h1>
         <p className="rebirth-hero-subtitle">
-          El programa para la mujer que está lista para su siguiente versión.
+          Para la mujer que hace todo bien y por dentro algo no cierra.
         </p>
         <a href="#precio" className="rebirth-btn">
           Quiero entrar
@@ -423,10 +423,8 @@ export default function RebirthPage() {
           ¿Cuándo fue la última vez que te pusiste <em>primera?</em>
         </h2>
         <p>
-          Hay mujeres que desde afuera lo tienen todo. La carrera, la imagen,
-          el ritmo. Pero adentro algo no cierra. Hay un cansancio que no se va
-          con vacaciones. Una sensación de que falta algo — y no sabés bien qué
-          es.
+          Hay un cansancio que no se va con vacaciones. No es agotamiento de
+          trabajo. Es el agotamiento de años priorizando a todos menos a vos.
         </p>
         <p>
           Aurelle Rebirth existe para eso. No es un curso. No es motivación de
@@ -451,10 +449,10 @@ export default function RebirthPage() {
           </h2>
           <ul className="rebirth-checks">
             <li>Sentís que estás viviendo en piloto automático y querés salir de ahí</li>
-            <li>Te cuesta poner límites — con las personas, con el trabajo, con vos misma</li>
+            <li>Te cuesta poner límites con las personas, con el trabajo, con vos misma</li>
             <li>Tu cuerpo está mandando señales que ignorás hace tiempo</li>
             <li>Querés algo más profundo que tips de bienestar en redes sociales</li>
-            <li>Estás lista para invertir en vos — en serio</li>
+            <li>Estás lista para invertir en vos, en serio</li>
           </ul>
         </div>
       </div>
@@ -463,7 +461,7 @@ export default function RebirthPage() {
         <div className="rebirth-inner">
           <span className="rebirth-label">El recorrido</span>
           <h2>
-            Cuatro semanas. <em>Una nueva versión.</em>
+            Cuatro semanas. <em>Un regreso a vos.</em>
           </h2>
           <div className="rebirth-semana-item">
             <div className="rebirth-semana-num">01</div>
@@ -472,7 +470,7 @@ export default function RebirthPage() {
               <p className="rebirth-semana-desc">
                 Aprender a detenerse de verdad. Reconocer el ruido interno.
                 Herramientas de mindfulness y presencia para empezar a
-                escucharte — quizás por primera vez.
+                escucharte, quizás por primera vez.
               </p>
             </div>
           </div>
@@ -482,7 +480,7 @@ export default function RebirthPage() {
               <div className="rebirth-semana-title">Cuerpo</div>
               <p className="rebirth-semana-desc">
                 Reconectar con lo que tu cuerpo guarda. Trabajo de conciencia
-                corporal para entender qué estás cargando — y cómo empezar a
+                corporal para entender qué estás cargando y cómo empezar a
                 soltarlo.
               </p>
             </div>
@@ -493,7 +491,7 @@ export default function RebirthPage() {
               <div className="rebirth-semana-title">Límites</div>
               <p className="rebirth-semana-desc">
                 Identificar los patrones que te drenan energía. Poner límites
-                desde el poder — no desde el miedo. En tus relaciones, tus
+                desde el poder, no desde el miedo. En tus relaciones, tus
                 hábitos y tu entorno.
               </p>
             </div>
@@ -501,11 +499,11 @@ export default function RebirthPage() {
           <div className="rebirth-semana-item">
             <div className="rebirth-semana-num">04</div>
             <div>
-              <div className="rebirth-semana-title">Nueva versión</div>
+              <div className="rebirth-semana-title">Integración</div>
               <p className="rebirth-semana-desc">
                 Integración. Definir quién querés ser. Crear una intención
-                clara para lo que viene. No el final — el comienzo de tu
-                elevación.
+                clara para lo que viene. No el final, el inicio de volver a
+                elegirte.
               </p>
             </div>
           </div>
@@ -545,8 +543,8 @@ export default function RebirthPage() {
           </h2>
           <blockquote className="rebirth-rebeca-quote">
             "Aurelle es el espacio que yo hubiera necesitado. Un lugar donde el
-            bienestar no es solo verse bien — sino sentirse en paz, conocerse de
-            verdad y rodearse de mujeres que inspiran."
+            bienestar no es solo verse bien, sino sentirse en paz y conocerse de
+            verdad."
           </blockquote>
           <p>
             No vengo del mundo terapéutico. Vengo del mundo de la imagen, la
@@ -555,7 +553,7 @@ export default function RebirthPage() {
           </p>
           <p>
             Aurelle Rebirth es lo que quiero para vos: que dejes de vivir para
-            la imagen — y empieces a vivir para vos.
+            la imagen y empieces a vivir para vos.
           </p>
         </div>
       </div>
@@ -564,11 +562,10 @@ export default function RebirthPage() {
         <div className="rebirth-precio-inner">
           <span className="rebirth-label">La inversión</span>
           <h2>
-            Cuatro semanas que <em>cambian todo</em>
+            Cuatro semanas para volver a vos
           </h2>
           <p>
-            Un proceso completo de transformación. Acompañamiento real.
-            Herramientas que te quedás para siempre.
+            Acompañamiento real. Herramientas que te quedás para siempre.
           </p>
           <div className="rebirth-precio-tag">
             <span>$</span>2,800
@@ -585,9 +582,7 @@ export default function RebirthPage() {
       </div>
 
       <div className="rebirth-footer-cta">
-        <h2>
-          La que está lista, <em>lo sabe.</em>
-        </h2>
+        <h2>La que está lista, lo sabe.</h2>
         <a href="#precio" className="rebirth-btn">
           Reservar mi lugar
         </a>

@@ -51,8 +51,9 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-9 max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
-                  Hay un momento en que dejás de reconocerte. No es dramático —
-                  es gradual. Aurelle es el espacio para volver a vos.
+                  Hay un momento en que te das cuenta que hace tiempo que no
+                  sos vos. No fue de un día para el otro. De a poco, dejaste de
+                  estar en la lista.
                 </p>
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
                   <div>
@@ -137,14 +138,14 @@ export default function Home() {
                 <p>
                   De chica vi de cerca lo que pasa cuando una mujer no se ve a
                   sí misma. Y sin entenderlo, me convertí en la persona a quien
-                  las mujeres acudían — para sentirse más seguras, más ellas
+                  las mujeres acudían, para sentirse más seguras, más ellas
                   mismas, más en paz.
                 </p>
                 <p>
                   Con los años también lo viví yo. Relaciones donde no me
                   respeté, momentos donde no me puse primero. Fue a través de
                   la terapia, el yoga, el trabajo interno y la reconexión con
-                  Dios que entendí de dónde venía todo eso — y cómo sanarlo.
+                  Dios que entendí de dónde venía todo eso y cómo sanarlo.
                 </p>
                 <p>
                   Aurelle es el espacio que yo hubiera necesitado. Un lugar
@@ -182,8 +183,7 @@ export default function Home() {
                 </h2>
               </div>
               <p className="max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
-                15 mujeres. Una tarde para parar, respirar y volver a ellas
-                mismas. Con intención en cada detalle.
+                15 mujeres. Una tarde para recordar cómo se siente ser vos.
               </p>
             </div>
           </Reveal>
@@ -229,7 +229,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Todo está en los detalles"
               title="Qué incluye la experiencia"
-              description="Cada detalle fue elegido con intención. Porque cuando una mujer se siente vista, algo cambia."
+              description="Cada detalle fue elegido con intención. Cuando alguien te ve de verdad, algo se mueve."
               align="center"
             />
           </Reveal>
@@ -285,6 +285,22 @@ export default function Home() {
             </div>
           </Reveal>
         </div>
+      </section>
+
+      <section className="bg-ivory px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
+        <Reveal className="mx-auto max-w-4xl">
+          <div className="border-y border-taupe/20 py-12 text-center">
+            <p className="text-[9px] font-bold uppercase tracking-[0.36em] text-taupe">
+              Esto es para vos si.
+            </p>
+            <p className="mx-auto mt-8 max-w-3xl font-serif text-3xl font-normal leading-[1.25] text-espresso sm:text-4xl lg:text-5xl">
+              Decís que sí cuando querés decir que no, y después te odiás por
+              eso. Tu cabeza no para ni cuando querés dormir. Hacés todo bien
+              para afuera y por dentro algo no cierra. No recordás cuándo fue
+              la última vez que te pusiste primera.
+            </p>
+          </div>
+        </Reveal>
       </section>
 
       <section className="bg-ivory px-5 py-28 text-center sm:px-8 lg:py-44">
