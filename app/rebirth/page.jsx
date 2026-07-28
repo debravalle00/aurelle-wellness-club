@@ -424,12 +424,12 @@ export default function RebirthPage() {
         </h2>
         <p>
           Hay un cansancio que no se va con vacaciones. No es agotamiento de
-          trabajo. Es el agotamiento de años priorizando a todos menos a vos.
+          trabajo. Es el agotamiento de años priorizando a todos menos a ti.
         </p>
         <p>
           Aurelle Rebirth existe para eso. No es un curso. No es motivación de
           Instagram. Es un proceso real de cuatro semanas para que vuelvas a
-          vos.
+          ti.
         </p>
         <p>
           <strong>
@@ -445,14 +445,14 @@ export default function RebirthPage() {
         <div className="rebirth-inner">
           <span className="rebirth-label">Para quién es esto</span>
           <h2>
-            Este programa es para vos <em>si...</em>
+            Este programa es para ti <em>si...</em>
           </h2>
           <ul className="rebirth-checks">
-            <li>Sentís que estás viviendo en piloto automático y querés salir de ahí</li>
-            <li>Te cuesta poner límites con las personas, con el trabajo, con vos misma</li>
-            <li>Tu cuerpo está mandando señales que ignorás hace tiempo</li>
-            <li>Querés algo más profundo que tips de bienestar en redes sociales</li>
-            <li>Estás lista para invertir en vos, en serio</li>
+            <li>Sientes que estás viviendo en piloto automático y quieres salir de ahí</li>
+            <li>Te cuesta poner límites con las personas, con el trabajo, contigo misma</li>
+            <li>Tu cuerpo está mandando señales que ignoras hace tiempo</li>
+            <li>Quieres algo más profundo que tips de bienestar en redes sociales</li>
+            <li>Estás lista para invertir en ti, en serio</li>
           </ul>
         </div>
       </div>
@@ -461,7 +461,7 @@ export default function RebirthPage() {
         <div className="rebirth-inner">
           <span className="rebirth-label">El recorrido</span>
           <h2>
-            Cuatro semanas. <em>Un regreso a vos.</em>
+            Cuatro semanas. <em>Un regreso a ti.</em>
           </h2>
           <div className="rebirth-semana-item">
             <div className="rebirth-semana-num">01</div>
@@ -501,7 +501,7 @@ export default function RebirthPage() {
             <div>
               <div className="rebirth-semana-title">Integración</div>
               <p className="rebirth-semana-desc">
-                Integración. Definir quién querés ser. Crear una intención
+                Integración. Definir quién quieres ser. Crear una intención
                 clara para lo que viene. No el final, el inicio de volver a
                 elegirte.
               </p>
@@ -511,7 +511,7 @@ export default function RebirthPage() {
       </div>
 
       <section className="rebirth-section">
-        <span className="rebirth-label">Lo que recibís</span>
+        <span className="rebirth-label">Lo que recibes</span>
         <h2>
           Todo lo que <em>incluye</em>
         </h2>
@@ -549,35 +549,56 @@ export default function RebirthPage() {
           <p>
             No vengo del mundo terapéutico. Vengo del mundo de la imagen, la
             presencia, el modelaje. Y aun así elegí ir adentro. Sé lo que es
-            vivir con una distancia entre cómo te ven y cómo te sentís.
+            vivir con una distancia entre cómo te ven y cómo te sientes.
           </p>
           <p>
-            Aurelle Rebirth es lo que quiero para vos: que dejes de vivir para
-            la imagen y empieces a vivir para vos.
+            Aurelle Rebirth es lo que quiero para ti: que dejes de vivir para
+            la imagen y empieces a vivir para ti.
           </p>
         </div>
       </div>
+
+      <section className="rebirth-section">
+        <h2>Quiénes estamos detrás</h2>
+        <p>
+          <strong>Rebeca.</strong> Fundadora de Aurelle Wellness Club. Creé
+          este programa porque viví en carne propia lo que es tenerlo todo para
+          afuera y sentir que algo adentro no cierra. Aurelle nació de eso.
+        </p>
+        <p>
+          <strong>Steven.</strong> Terapeuta somático. Especialista en
+          regulación del sistema nervioso. Steven acompaña a cada mujer en el
+          proceso corporal del programa a través de 4 sesiones en vivo, porque
+          el cuerpo guarda lo que la mente no puede procesar sola.
+        </p>
+        <p>
+          <strong>
+            No vas a hacer este proceso sola. Estaremos las dos presencias para
+            acompañarte.
+          </strong>
+        </p>
+      </section>
 
       <div className="rebirth-precio-block" id="precio">
         <div className="rebirth-precio-inner">
           <span className="rebirth-label">La inversión</span>
           <h2>
-            Cuatro semanas para volver a vos
+            Cuatro semanas para volver a ti
           </h2>
           <p>
-            Acompañamiento real. Herramientas que te quedás para siempre.
+            Acompañamiento real. Herramientas que te quedas para siempre.
           </p>
           <div className="rebirth-precio-tag">
             <span>$</span>2,800
           </div>
           <div className="rebirth-precio-moneda">MXN · pago único</div>
           <a
-            href="https://buy.stripe.com/bJebJ0gMCfQFg4UctM4Rq02"
+            href="https://buy.stripe.com/8x28wO3ZQdIx5qggK24Rq03"
             className="rebirth-btn-pago"
           >
             Quiero entrar al programa
           </a>
-          <p className="rebirth-garantia">Cupos limitados · Inicio agosto 2026</p>
+          <p className="rebirth-garantia">Cupos limitados · Inicio 24 de Octubre, 2026</p>
         </div>
       </div>
 

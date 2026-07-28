@@ -17,7 +17,7 @@ function WaitlistNote({ align = "left" }) {
         align === "center" ? "text-center" : "text-left"
       }`}
     >
-      Solo 15 lugares · $1,800 MXN
+      Solo 15 lugares · $1,500 MXN
     </p>
   );
 }
@@ -41,7 +41,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <span className="h-px w-10 bg-taupe/45" />
                   <p className="text-[9px] font-bold uppercase tracking-[0.34em] text-taupe">
-                    Pilates · Brunch · Conexión
+                    Pilates · Conversación · Conexión
                   </p>
                 </div>
                 <h1 className="mt-9 font-serif text-[clamp(3.6rem,7vw,6.8rem)] font-normal leading-[0.88] tracking-[-0.045em] text-espresso">
@@ -52,7 +52,7 @@ export default function Home() {
                 </h1>
                 <p className="mt-9 max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
                   Hay un momento en que te das cuenta que hace tiempo que no
-                  sos vos. No fue de un día para el otro. De a poco, dejaste de
+                  eres tú. No fue de un día para el otro. De a poco, dejaste de
                   estar en la lista.
                 </p>
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
@@ -96,9 +96,9 @@ export default function Home() {
                   )}
                 </div>
                 <div className="mt-8 flex items-center justify-between text-[8px] uppercase tracking-[0.28em] text-cacao/75">
-                  <span>Ciudad de México</span>
+                  <span>Antü Movement Studio, Polanco, CDMX</span>
                   <span className="h-px w-12 bg-taupe/30" />
-                  <span>22 de Agosto, 2026</span>
+                  <span>24 de Octubre, 2026</span>
                 </div>
               </div>
             </Reveal>
@@ -183,7 +183,7 @@ export default function Home() {
                 </h2>
               </div>
               <p className="max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
-                15 mujeres. Una tarde para recordar cómo se siente ser vos.
+                15 mujeres. Una tarde para recordar cómo se siente ser tú.
               </p>
             </div>
           </Reveal>
@@ -206,7 +206,7 @@ export default function Home() {
           <Reveal className="mt-12 flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-end">
             <div className="max-w-2xl">
               <p className="font-serif text-2xl text-espresso">
-                Las que estuvieron ahí van a saberlo. Y vos también.
+                Las que estuvieron ahí van a saberlo. Y tú también.
               </p>
               <p className="mt-3 text-sm leading-7 text-cacao">
                 La ubicación exacta será compartida luego de la confirmación ·
@@ -291,12 +291,12 @@ export default function Home() {
         <Reveal className="mx-auto max-w-4xl">
           <div className="border-y border-taupe/20 py-12 text-center">
             <p className="text-[9px] font-bold uppercase tracking-[0.36em] text-taupe">
-              Esto es para vos si.
+              Esto es para ti si.
             </p>
             <p className="mx-auto mt-8 max-w-3xl font-serif text-3xl font-normal leading-[1.25] text-espresso sm:text-4xl lg:text-5xl">
-              Decís que sí cuando querés decir que no, y después te odiás por
-              eso. Tu cabeza no para ni cuando querés dormir. Hacés todo bien
-              para afuera y por dentro algo no cierra. No recordás cuándo fue
+              Dices que sí cuando quieres decir que no, y después te odias por
+              eso. Tu cabeza no para ni cuando quieres dormir. Haces todo bien
+              para afuera y por dentro algo no cierra. No recuerdas cuándo fue
               la última vez que te pusiste primera.
             </p>
           </div>
@@ -329,11 +329,11 @@ export default function Home() {
                 Aurelle Rebirth
               </p>
               <h2 className="mt-5 max-w-2xl font-serif text-4xl font-normal leading-[1.05] text-espresso sm:text-5xl">
-                Cuatro semanas para regular tu sistema nervioso y volver a vos.
+                Cuatro semanas para regular tu sistema nervioso y volver a ti.
               </h2>
             </div>
             <Button href="/rebirth" variant="secondary">
-              Conocé el programa
+              Conoce el programa
             </Button>
           </div>
         </Reveal>

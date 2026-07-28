@@ -6,7 +6,7 @@ export const metadata = {
     "Una experiencia de bienestar creada para mujeres que buscan pausar, reconectar y sentirse inspiradas.",
   openGraph: {
     title: "Aurelle Wellness Club",
-    description: "Pilates · Brunch · Conexión",
+    description: "Pilates · Conversación · Conexión",
   },
 };
 
