@@ -29,10 +29,9 @@ export default function Home() {
 
       <section
         id="inicio"
-        className="relative flex min-h-screen items-center overflow-hidden border-b border-taupe/15 bg-[linear-gradient(135deg,#F6F0E8_0%,#F8F3ED_48%,#EFE5DA_100%)] px-5 pb-16 pt-32 sm:px-8 lg:px-12"
+        className="relative flex min-h-screen items-center overflow-hidden border-b border-taupe/15 bg-[url('/antu-movement-studio.jpg')] bg-cover bg-center px-5 pb-16 pt-32 sm:px-8 lg:px-12"
       >
-        <div className="absolute -left-24 top-28 h-72 w-72 rounded-full bg-ivory/70 blur-3xl" />
-        <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-blush/25 blur-3xl" />
+        <div className="absolute inset-0 bg-linen/55" />
 
         <div className="relative mx-auto w-full max-w-[1280px]">
           <div className="grid items-center gap-14 lg:grid-cols-[1.08fr_0.92fr] lg:gap-20">
@@ -44,60 +43,67 @@ export default function Home() {
                     Pilates · Conversación · Conexión
                   </p>
                 </div>
-                <h1 className="mt-9 font-serif text-[clamp(3.6rem,7vw,6.8rem)] font-normal leading-[0.88] tracking-[-0.045em] text-espresso">
+                <h1 className="mt-9 font-serif text-[clamp(4.7rem,9.1vw,8.8rem)] font-normal leading-[0.88] tracking-[-0.045em] text-espresso">
                   Aurelle
                   <span className="mt-3 block text-[0.56em] italic tracking-[-0.025em] text-taupe">
                     Wellness Club
                   </span>
                 </h1>
-                <p className="mt-9 max-w-xl text-base font-light leading-8 text-cacao sm:text-lg">
+                <p className="mt-9 max-w-lg text-sm font-light leading-7 text-cacao sm:text-base">
                   Hay un momento en que te das cuenta que hace tiempo que no
-                  eres tú. No fue de un día para el otro. De a poco, dejaste de
+                  eres tú. No fue de un día para el otro. Poco a poco, dejaste de
                   estar en la lista.
                 </p>
                 <div className="mt-10 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
                   <div>
-                    <Button href={links.waitlist} external>
+                    <Button
+                      href={links.waitlist}
+                      external
+                      className="border-espresso bg-espresso hover:border-taupe hover:bg-taupe"
+                    >
                       Reservar mi lugar
                     </Button>
                     <WaitlistNote />
                   </div>
-                  <Button href="#sobre" variant="secondary">
+                  <a
+                    href="#sobre"
+                    className="inline-flex min-h-12 items-center justify-center text-[10px] font-bold uppercase tracking-[0.2em] text-espresso underline decoration-taupe/50 underline-offset-8 transition duration-300 hover:text-taupe"
+                  >
                     Descubrir Aurelle
-                  </Button>
+                  </a>
                 </div>
               </div>
             </Reveal>
 
             <Reveal delay={120}>
-              <div className="relative border border-taupe/15 bg-ivory/70 p-7 shadow-soft backdrop-blur-sm sm:p-10 lg:p-12">
-                <div className="absolute -left-3 -top-3 h-12 w-12 border-l border-t border-taupe/30" />
-                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-taupe">
+              <div className="relative border border-ivory/15 bg-espresso p-7 text-ivory shadow-soft backdrop-blur-sm sm:p-10 lg:p-12">
+                <div className="absolute -left-3 -top-3 h-12 w-12 border-l border-t border-ivory/35" />
+                <p className="text-[9px] font-bold uppercase tracking-[0.3em] text-sand">
                   Una tarde para ti
                 </p>
-                <p className="mt-8 max-w-md font-serif text-3xl italic leading-[1.25] text-espresso sm:text-4xl">
+                <p className="mt-8 max-w-md font-serif text-3xl italic leading-[1.25] text-ivory sm:text-4xl">
                   No es un evento más. Las que estén ahí van a saberlo.
                 </p>
-                <div className="mt-12 border-t border-taupe/20">
+                <div className="mt-12 border-t border-ivory/20">
                   {["Movimiento consciente", "Conexión femenina", "Conexiones con intención"].map(
                     (item, index) => (
                       <div
                         key={item}
-                        className="flex items-center gap-5 border-b border-taupe/20 py-5"
+                        className="flex items-center gap-5 border-b border-ivory/20 py-5"
                       >
                         <span className="text-[8px] font-bold tracking-[0.2em] text-gold">
                           0{index + 1}
                         </span>
-                        <span className="font-serif text-lg text-espresso">
+                        <span className="font-serif text-lg text-ivory">
                           {item}
                         </span>
                       </div>
                     ),
                   )}
                 </div>
-                <div className="mt-8 flex items-center justify-between text-[8px] uppercase tracking-[0.28em] text-cacao/75">
+                <div className="mt-8 flex items-center justify-between gap-4 text-[8px] uppercase tracking-[0.28em] text-sand">
                   <span>Antü Movement Studio, Polanco, CDMX</span>
-                  <span className="h-px w-12 bg-taupe/30" />
+                  <span className="h-px w-12 bg-ivory/35" />
                   <span>24 de Octubre, 2026</span>
                 </div>
               </div>
@@ -108,6 +114,46 @@ export default function Home() {
             <span className="h-px w-10 bg-taupe/30" />
             Primera experiencia Aurelle
           </div>
+        </div>
+      </section>
+
+      <section className="bg-linen px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
+        <div className="mx-auto grid max-w-[1120px] gap-12 lg:grid-cols-[0.82fr_1.18fr] lg:items-center lg:gap-24">
+          <Reveal>
+            <div className="overflow-hidden border border-taupe/20 bg-ivory shadow-card">
+              <img
+                src="/ana-paola-corona.jpg"
+                alt="Ana Paola Corona, psicóloga invitada de Aurelle Wellness Club"
+                className="aspect-[4/5] h-full w-full object-cover"
+              />
+            </div>
+          </Reveal>
+          <Reveal delay={120}>
+            <div className="max-w-2xl">
+              <p className="mb-6 text-[9px] font-bold uppercase tracking-[0.32em] text-taupe">
+                La charla
+              </p>
+              <h2 className="font-serif text-4xl font-normal leading-[1.03] text-espresso sm:text-5xl lg:text-6xl">
+                Ana Paola Corona
+              </h2>
+              <p className="mt-4 text-[10px] font-bold uppercase tracking-[0.28em] text-taupe">
+                Psicóloga
+              </p>
+              <p className="mt-8 text-base font-light leading-8 text-cacao sm:text-lg">
+                Ana Paola guiará una conversación íntima sobre cómo volver a
+                escucharte, poner límites y reconocer lo que tu cuerpo lleva
+                tiempo intentando decirte.
+              </p>
+              <a
+                href="https://www.instagram.com/anapaola.corona"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-flex text-[10px] font-bold uppercase tracking-[0.2em] text-espresso underline decoration-taupe/50 underline-offset-8 transition duration-300 hover:text-taupe"
+              >
+                @anapaola.corona
+              </a>
+            </div>
+          </Reveal>
         </div>
       </section>
 
@@ -296,7 +342,7 @@ export default function Home() {
             <p className="mx-auto mt-8 max-w-3xl font-serif text-3xl font-normal leading-[1.25] text-espresso sm:text-4xl lg:text-5xl">
               Dices que sí cuando quieres decir que no, y después te odias por
               eso. Tu cabeza no para ni cuando quieres dormir. Haces todo bien
-              para afuera y por dentro algo no cierra. No recuerdas cuándo fue
+              hacia afuera y por dentro algo no cierra. No recuerdas cuándo fue
               la última vez que te pusiste primera.
             </p>
           </div>
