@@ -29,9 +29,10 @@ export default function Home() {
 
       <section
         id="inicio"
-        className="relative flex min-h-screen items-center overflow-hidden border-b border-taupe/15 bg-[url('/antu-movement-studio.jpg')] bg-cover bg-center px-5 pb-16 pt-32 sm:px-8 lg:px-12"
+        className="relative flex min-h-screen items-center overflow-hidden border-b border-taupe/15 bg-[linear-gradient(135deg,#F6F0E8_0%,#F8F3ED_48%,#EFE5DA_100%)] px-5 pb-20 pt-32 sm:px-8 lg:px-12"
       >
-        <div className="absolute inset-0 bg-linen/55" />
+        <div className="absolute -left-24 top-28 h-72 w-72 rounded-full bg-ivory/70 blur-3xl" />
+        <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-blush/25 blur-3xl" />
 
         <div className="relative mx-auto w-full max-w-[1280px]">
           <div className="grid items-center gap-14 lg:grid-cols-[1.08fr_0.92fr] lg:gap-20">
@@ -117,19 +118,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-linen px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
-        <div className="mx-auto grid max-w-[1120px] gap-12 lg:grid-cols-[0.82fr_1.18fr] lg:items-center lg:gap-24">
+      <section className="bg-linen px-5 py-28 sm:px-8 lg:px-12 lg:py-40">
+        <div className="mx-auto max-w-[1120px]">
           <Reveal>
-            <div className="overflow-hidden border border-taupe/20 bg-ivory shadow-card">
-              <img
-                src="/ana-paola-corona.jpg"
-                alt="Ana Paola Corona, psicóloga invitada de Aurelle Wellness Club"
-                className="aspect-[4/5] h-full w-full object-cover"
-              />
-            </div>
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="max-w-2xl">
+            <div className="max-w-3xl border-y border-taupe/20 py-14">
               <p className="mb-6 text-[9px] font-bold uppercase tracking-[0.32em] text-taupe">
                 La charla
               </p>
